@@ -23,6 +23,7 @@ const fixVariables = (temp) => {
      msg = 'I will die of heat.';
   }
   return msg;
+  return
 };
 
 
