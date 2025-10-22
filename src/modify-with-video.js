@@ -1,4 +1,4 @@
-/*
+  /*
   DEBUGGING ACTIVITY: Score Tracker
 
   You've been hired by a small game company to help debug their score-tracking system.
@@ -9,8 +9,7 @@
   3. Reset all scores to zero
   4. Return the name of the current top scorer
 
-  However, some functionality isn't working correctly.
-
+  However, some functionality isn't working correctly.             
   YOUR TASKS:
   1. Run this file and observe what happens
   2. Identify 3 bugs in the code
@@ -24,6 +23,7 @@
 */
 
 const players = [
+  // An array that contains fours objects. Each objects has two key:value pairs, the name and the score set to 0
   { name: 'Taylor', score: 0 },
   { name: 'Jordan', score: 0 },
   { name: 'Alex', score: 0 },
@@ -31,6 +31,7 @@ const players = [
 ];
 
 const increaseScore = (name) => {
+  // For loop that iterates through the players
   for (let i = 0; i <= players.length; i++) {
     if (players[i].name = name) {
       players[i].score += 1;
